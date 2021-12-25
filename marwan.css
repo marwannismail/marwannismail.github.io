@@ -14,6 +14,7 @@ ul{
 #navigation{
     background-color: blue;
     border: 2px groove orange;
+    text-align: center;
 }
 .subheading{
     color: white;
@@ -54,6 +55,9 @@ h2{
     text-decoration: none;
     display: block;
     margin-bottom: 5px;
+}
+.uni-link:hover{
+    color: orange;
 }
 .dropdown-button:hover .content{display: block;}
 .dropdown-button:hover .links-to-universities{background-color: #3e8e41;}

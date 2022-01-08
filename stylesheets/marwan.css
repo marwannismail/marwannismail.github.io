@@ -1,0 +1,54 @@
+body{
+    background-image: url("../resources/background.jpg");
+    background-color: rgb(244, 244, 244);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#title{
+    color: rgb(15, 198, 230);
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+div{
+    display: block;
+}
+
+#parent-box{
+    width: 50%;
+    height: 25%;
+    padding: 30px 250px 0px 400px;
+}
+.links-to-pages{
+    float: left;
+    margin: 1%;
+    width: 30%;
+    background: white;
+    color: white;
+    text-align: center;
+    border: 5px groove silver;
+    padding: 50px 50px 50px 50px;
+}
+
+#bio{
+    background: red;
+}
+
+.links-to-pages:hover{
+    color: yellow;
+}
+
+#top-10{
+    background: blue;
+}
+
+#other{
+    background: green;
+}
+
+#colour-guessing-game{
+    background: purple;
+    padding-top: 37px;
+    padding-bottom: 37px;
+}

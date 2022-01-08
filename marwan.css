@@ -1,82 +1,54 @@
-ul{
-    list-style-type: circle;
-}
-#title{
-    font-size: 35px;
-    text-align: left;
-    font-weight: bold;
-}
-#navigation{
-    text-align: center;
-
-}
-.subheading{
-    text-decoration: none;
-    font-weight: bold;
-}    
-.subheading:hover{
-    color: orange;
-}
-h2{
-    font-size: 1.5em;
-    font-weight: bold;
-}
-.links-to-universities{
-    background-color: orange;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-}
-.dropdown-button{
-    position: relative;
-    display: inline-block;
-}
-.content{
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 16px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-.uni-link{
-    color: black;
-    text-decoration: none;
-    display: block;
-    margin-bottom: 5px;
-}
-.uni-link:hover{
-    color: orange;
-}
-.dropdown-button:hover .content{
-    display: block;
-}
-.dropdown-button:hover .links-to-universities{
-    background-color: #3e8e41;
-}
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    width: 50%;
-    border: 10px groove gold;
-}
-.information{
-    border: 2px black;
-    border-style: solid none;
-    padding-top: 5px;
-    padding-bottom: 10px;
-}
 body{
-    background: rgb(247, 243, 243);
-    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("background.jpg");
+    background-color: rgb(244, 244, 244);
+    font-family:Arial, Helvetica, sans-serif;
 }
-table, th, td{
-    padding: 10px;
-    border: 1px solid orange;
-    border-collapse: collapse;
-    margin: auto;
-    margin-top: 5px;
+
+#title{
+    color: rgb(15, 198, 230);
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+div{
+    display: block;
+}
+
+#parent-box{
+    width: 50%;
+    height: 25%;
+    padding: 30px 250px 0px 400px;
+}
+.links-to-pages{
+    float: left;
+    margin: 1%;
+    width: 30%;
+    background: white;
+    color: white;
+    text-align: center;
+    border: 5px groove silver;
+    padding: 50px 50px 50px 50px;
+}
+
+#bio{
+    background: red;
+}
+
+.links-to-pages:hover{
+    color: yellow;
+}
+
+#top-10{
+    background: blue;
+}
+
+#other{
+    background: green;
+}
+
+#colour-guessing-game{
+    background: purple;
+    padding-top: 37px;
+    padding-bottom: 37px;
 }

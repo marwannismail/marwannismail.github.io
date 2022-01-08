@@ -1,7 +1,7 @@
 body{
     background-image: url("background.jpg");
     background-color: rgb(244, 244, 244);
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #title{
@@ -24,31 +24,31 @@ div{
     float: left;
     margin: 1%;
     width: 30%;
-    background: white;
-    color: white;
+    background: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     text-align: center;
-    border: 5px groove silver;
+    border: 5px groove rgb(192, 192, 192);
     padding: 50px 50px 50px 50px;
 }
 
 #bio{
-    background: red;
+    background: rgb(255, 0, 0);
 }
 
 .links-to-pages:hover{
-    color: yellow;
+    color: rgb(255, 255, 0);
 }
 
 #top-10{
-    background: blue;
+    background: rgb(0, 0, 255);
 }
 
 #other{
-    background: green;
+    background: rgb(0, 255, 0);
 }
 
 #colour-guessing-game{
-    background: purple;
+    background: rgb(128, 0, 128);
     padding-top: 37px;
     padding-bottom: 37px;
 }
